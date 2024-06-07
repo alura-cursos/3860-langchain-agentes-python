@@ -11,6 +11,11 @@ pergunta = "Crie um perfil acadêmico para a Ana!"
 pergunta = "Compare o perfil acadêmico da Ana com o da Bianca!"
 pergunta = "Tenho sentido Ana desanimada com cursos de matemática. Seria uma boa parear ela com a Bianca?"
 pergunta = "Tenho sentido Ana desanimada com cursos de matemática. Seria uma boa parear ela com o Marcos?"
+pergunta = "Quais os dados da USP?"
+pergunta = "Quais os dados da uNiCAmP?"
+pergunta = "Quais os dados da uNi CAmP?"
+pergunta = "Quais os dados da uNicomP?"
+pergunta = "Dentre USP e UFRJ, qual você recomenda para a acadêmica Ana?"
 
 agente = AgenteOpenAIFunctions()
 executor = AgentExecutor(agent=agente.agente,
