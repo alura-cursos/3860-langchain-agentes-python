@@ -15,7 +15,8 @@ class AgenteOpenAIFunctions:
         self.tools = [
             Tool(name = dados_de_estudante.name,
                 func = dados_de_estudante.run,
-                description = dados_de_estudante.description),
+                description = dados_de_estudante.description,
+                return_direct = False),
             Tool(name = perfil_academico.name,
                  func = perfil_academico.run,
                  description = perfil_academico.description)
