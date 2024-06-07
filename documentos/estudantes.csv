@@ -1,0 +1,15 @@
+NOME,USUARIO,ANO_FORMATURA,SCORE_MATEMATICA,SCORE_PORTUGUES_,SCORE_BIOLOGIA,SCORE_FISICA,SCORE_COMPUTACAO,SCORE_FILOSOFIA,SCORE_PROJETOS,SCORE_ATIVIDADES_SOCIAIS,SCORE_PUBLICACOES,LISTA_AREAS_PREFERIDAS,PROEFICIENCIA_INGLES,PROEFICIENCIA_ESPANHOL,LISTA_PAISES_PREFERIDOS,LISTA_UNIVERSIDADES_PREFERIDAS
+Ana,ana,2029,4,6,8,8,3,5,5,2,0,['Humanas'],5.5,5.5,"['Brasil', 'Alemanha']","['UNICAMP', 'Technical University of Berlin']"
+Ariel,ariel,2026,2,7,8,7,2,4,0,8,10,"['Ciências', 'Saúde', 'Artes']",7.5,9.0,"['Austrália', 'Reino Unido']","['University of Sydney', 'Imperial College']"
+Marcos,marcos,2027,10,2,7,8,10,1,0,4,7,['Humanas'],8.0,8.5,['Canadá'],['University of British Columbia']
+Luiz,luiz,2027,2,1,8,5,7,2,8,2,4,"['Saúde', 'Engenharia', 'Artes']",6.5,9.0,"['Austrália', 'Alemanha']","['Australian National University', 'University of Heidelberg']"
+José,josé,2023,2,3,6,10,2,7,8,8,7,"['Engenharia', 'Saúde', 'Ciências']",5.5,8.5,"['Estados Unidos', 'Austrália', 'Brasil']","['MIT', 'University of Sydney', 'UFRJ']"
+Bianca,bianca,2029,8,10,1,4,2,5,10,1,7,"['Engenharia', 'Ciências', 'Humanas']",6.5,5.5,"['Alemanha', 'Austrália', 'Canadá']","['University of Munich', 'Australian National University', 'University of Toronto']"
+Carla,carla,2029,3,2,1,6,0,10,4,7,6,"['Engenharia', 'Ciências']",8.0,5.5,"['Canadá', 'Alemanha', 'Austrália']","['McGill University', 'University of Heidelberg', 'University of Sydney']"
+Brenda,brenda,2026,4,7,1,2,1,5,9,0,9,['Ciências'],6.0,7.0,"['Canadá', 'Austrália']","['University of Toronto', 'University of Sydney']"
+Rosi,rosi,2023,4,10,10,6,9,10,1,7,6,['Ciências'],5.5,5.5,"['Austrália', 'Alemanha', 'Estados Unidos']","['University of Sydney', 'University of Munich', 'MIT']"
+Gabriel,gabriel,2027,9,7,1,4,1,3,7,4,7,"['Ciências', 'Saúde']",9.0,7.0,"['Estados Unidos', 'Austrália', 'Canadá']","['Harvard', 'Australian National University', 'University of Toronto']"
+Mateus,mateus,2025,9,3,5,8,8,1,4,9,8,['Artes'],7.0,8.5,['Alemanha'],['University of Munich']
+Matheus,matheus,2023,2,3,3,5,0,8,0,8,5,"['Saúde', 'Ciências']",7.5,7.0,"['Estados Unidos', 'Reino Unido']","['Harvard', 'Oxford']"
+Lúcio,lúcio,2028,2,9,10,2,7,2,6,5,3,"['Saúde', 'Artes', 'Ciências']",6.0,9.0,"['Austrália', 'Canadá', 'Brasil']","['University of Sydney', 'University of British Columbia', 'UNICAMP']"
+Lara,lara,2029,2,10,10,9,9,2,9,10,6,"['Humanas', 'Engenharia']",6.5,9.0,['Estados Unidos'],['MIT']
