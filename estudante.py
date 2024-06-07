@@ -21,20 +21,22 @@ class ExtratorDeEstudante(BaseModel):
 
 class DadosDeEstudante(BaseTool):
     name = "DadosDeEstudante"
-    description = """Esta ferramenta extrai o histórico e preferências de um estudante de acordo com seu histórico."""
+    description = """Esta ferramenta extrai o histórico e preferências de um estudante de acordo com seu histórico.
+Passe para essa ferramenta como argumento o nome do estudante."""
 
     def _run(self, input: str) -> str:
-        llm = ChatOpenAI(model="gpt-4o",
-                         api_key=os.getenv("OPENAI_API_KEY"))
-        parser = JsonOutputParser(pydantic_object=ExtratorDeEstudante)
-        template = PromptTemplate(template="""Você deve analisar a {input} e extrair o nome de usuário informado.
-                        Formato de saída:
-                        {formato_saida}""",
-                        input_variables=["input"],
-                        partial_variables={"formato_saida" : parser.get_format_instructions()})
-        cadeia = template | llm | parser
-        resposta = cadeia.invoke({"input" : input})
-        estudante = resposta['estudante']
+        #llm = ChatOpenAI(model="gpt-4o",
+        #                 api_key=os.getenv("OPENAI_API_KEY"))
+        #parser = JsonOutputParser(pydantic_object=ExtratorDeEstudante)
+        #template = PromptTemplate(template="""Você deve analisar a {input} e extrair o nome de usuário informado.
+        #                Formato de saída:
+        #                {formato_saida}""",
+        #                input_variables=["input"],
+        #                partial_variables={"formato_saida" : parser.get_format_instructions()})
+        #cadeia = template | llm | parser
+        #resposta = cadeia.invoke({"input" : input})
+        #estudante = resposta['estudante']
+        estudante = input
         estudante = estudante.lower()
         dados = busca_dados_de_estudante(estudante)
         return json.dumps(dados)
@@ -53,7 +55,9 @@ class PerfilAcademicoDeEstudante(BaseModel):
 class PerfilAcademico(BaseTool):
     name = "PerfilAcademico"
     description = """Cria um perfil acadêmico de um estudante.
-Esta ferramenta requer como entrada todos os dados do estudante."""
+Esta ferramenta requer como entrada todos os dados do estudante.
+Eu sou incapaz de buscar os dados do estudante.
+Você tem que buscar os dados do estudante antes de me invocar."""
 
     def _run(self, input:str) -> str:
         llm = ChatOpenAI(model="gpt-4o",
