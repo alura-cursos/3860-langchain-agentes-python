@@ -16,6 +16,10 @@ pergunta = "Quais os dados da uNiCAmP?"
 pergunta = "Quais os dados da uNi CAmP?"
 pergunta = "Quais os dados da uNicomP?"
 pergunta = "Dentre USP e UFRJ, qual você recomenda para a acadêmica Ana?"
+pergunta = "Dentre uni camp e USP, qual você recomenda para a Ana?"
+pergunta = "Quais as faculdades com melhores chances para a Ana entrar?"
+pergunta = "Dentre todas as faculdades existentes, quais Ana possui mais chance de entrar?"
+pergunta = "Além das faculdades favoritas da Ana existem outras faculdades. Considere elas também. Quais Ana possui mais chance de entrar?"
 
 agente = AgenteOpenAIFunctions()
 executor = AgentExecutor(agent=agente.agente,
